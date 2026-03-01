@@ -1,0 +1,44 @@
+{
+    "status": "OK",
+    "next_page_token": "AZose0kTvL...",
+    "results": [
+        {
+            "place_id": "ChIJN1t_tDeuEmsRUsoyG83frY4",
+            "name": "Google Australia",
+            "vicinity": "48 Pirrama Road, Pyrmont",
+            "geometry": {
+                "location": {
+                    "lat": -33.866489,
+                    "lng": 151.1958561
+                }
+            },
+            "types": ["point_of_interest", "establishment"],
+            "rating": 4.0,
+            "user_ratings_total": 5310,
+            "opening_hours": {
+                "open_now": true
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "business_status": "OPERATIONAL"
+        },
+        {
+            "place_id": "ChIJ2eUgeAK6j4ARbn5u_wAGqWA",
+            "name": "Sydney Opera House",
+            "vicinity": "Bennelong Point, Sydney",
+            "geometry": {
+                "location": {
+                    "lat": -33.8567844,
+                    "lng": 151.2152967
+                }
+            },
+            "types": ["tourist_attraction", "point_of_interest", "establishment"],
+            "rating": 4.7,
+            "user_ratings_total": 65871,
+            "opening_hours": {
+                "open_now": false
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "business_status": "OPERATIONAL"
+        }
+    ]
+}

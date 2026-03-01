@@ -1,0 +1,46 @@
+{
+    "name": "sysborg/gmaps-laravel",
+    "description": "Google Maps API package for Laravel using Ports and Adapters architecture",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "google-maps", "places", "geocoding", "hexagonal"],
+    "authors": [
+        {
+            "name": "Anderson Arruda",
+            "email": "anderson@g7sys.com.br"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "illuminate/http": "^11.0|^12.0",
+        "illuminate/cache": "^11.0|^12.0",
+        "illuminate/contracts": "^11.0|^12.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "orchestra/testbench": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sysborg\\GmapsLaravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sysborg\\GmapsLaravel\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sysborg\\GmapsLaravel\\GmapsServiceProvider"
+            ],
+            "aliases": {
+                "GMap": "Sysborg\\GmapsLaravel\\Facades\\GMap"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
